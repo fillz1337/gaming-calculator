@@ -550,6 +550,8 @@ Wire Wire Line
 Wire Wire Line
 	3500 3100 3050 3100
 Connection ~ 3500 3100
+Wire Wire Line
+	3050 3100 2550 3100
 Connection ~ 3050 3100
 Wire Wire Line
 	2550 4000 3050 4000
@@ -575,51 +577,4 @@ Connection ~ 3500 4450
 Wire Wire Line
 	3050 4450 2550 4450
 Connection ~ 3050 4450
-Wire Wire Line
-	2000 2500 2550 2500
-Connection ~ 2550 2500
-Text GLabel 2000 2500 0    50   Input ~ 0
-ROW0
-Text GLabel 2000 3100 0    50   Input ~ 0
-ROW1
-Text GLabel 2000 3550 0    50   Input ~ 0
-ROW2
-Text GLabel 2000 4000 0    50   Input ~ 0
-ROW3
-Text GLabel 2000 4450 0    50   Input ~ 0
-ROW4
-Text GLabel 2900 1500 1    50   Input ~ 0
-COL0
-Text GLabel 3400 1500 1    50   Input ~ 0
-COL1
-Text GLabel 3850 1500 1    50   Input ~ 0
-COL2
-Text GLabel 4250 1500 1    50   Input ~ 0
-COL3
-Wire Wire Line
-	2900 2100 2900 1500
-Connection ~ 2900 2100
-Wire Wire Line
-	3400 1500 3400 2100
-Connection ~ 3400 2100
-Wire Wire Line
-	3850 2100 3850 1500
-Connection ~ 3850 2100
-Wire Wire Line
-	4250 1500 4250 2100
-Connection ~ 4250 2100
-Wire Wire Line
-	2550 3100 3050 3100
-Wire Wire Line
-	2000 3100 2550 3100
-Connection ~ 2550 3100
-Wire Wire Line
-	2000 3550 2550 3550
-Connection ~ 2550 3550
-Wire Wire Line
-	2000 4000 2550 4000
-Connection ~ 2550 4000
-Wire Wire Line
-	2000 4450 2550 4450
-Connection ~ 2550 4450
 $EndSCHEMATC
