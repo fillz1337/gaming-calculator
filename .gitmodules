@@ -7,3 +7,6 @@
 [submodule "Arduino_KiCad"]
 	path = Arduino_KiCad
 	url = https://github.com/bobc/Arduino_KiCad
+[submodule "Nano_33"]
+	path = Nano_33
+	url = https://github.com/hulkco/Nano_33
